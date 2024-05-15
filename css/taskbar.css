@@ -1,0 +1,33 @@
+#taskbar {
+	display: flex;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background: #5900FF;
+}
+
+#startmenu button {
+	max-height: 50px;
+	padding: 1px;
+}
+
+#startmenu button img {
+	height: 40px;
+}
+
+#searchbar {
+	border: 1px solid gray;
+	padding-left: 15px;
+}
+
+#time {
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	color: white;
+}
+
+#date {
+	margin-top: 9px;
+}

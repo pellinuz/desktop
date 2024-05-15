@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Windows 10 desktop</title>
+		<link rel="stylesheet" href="./css/dekstop.css">
+		<link rel="stylesheet" href="./css/taskbar.css">
+		<link rel="stylesheet" href="./css/time.css">
+	</head>
+
+	<body>
+		<div id="desktop">
+			<div id="google">
+				<button id="googlebtn" onclick="googleToggle()">
+					<img src="./media/Chrome.png" alt="Google">
+					<p class="app-name">Google Chrome</p>
+				</button>
+			</div>
+			<div id="youtube">
+				<button id="youtubebtn" onclick="youtubeToggle()">
+					<img src="./media/Youtube.png" alt="Youtube">
+					<p class="app-name">Youtube</p>
+				</button>
+			</div>
+		</div>
+		<div id="taskbar">
+			<div id="startmenu">
+				<button onclick="startToggle()">
+					<img src="./media/windows.png" alt="">
+				</button>
+			</div>
+			<input type="text" id="searchbar" placeholder="Seach...">
+			<div id="taskgoogle">
+				<button id="app-google">
+					<img src="" alt="">
+				</button>
+			</div>
+			<div id="time">
+				<p id="date"></p>
+			</div>
+		</div>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+		
+		<script src="./js/desktop.js"></script>
+		<script src="./js/taskbar.js"></script>
+		<script src="./js/time.js"></script>
+	</body>
+
+</html>
