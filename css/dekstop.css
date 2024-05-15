@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	font-family: Roboto;
 	overflow-y: hidden;
+	background: url("https://w.wallha.com/ws/15/GlcjJe0V.jpg") no-repeat fixed;
+	background-size: cover;
 }
 
 button {
@@ -22,6 +24,7 @@ button {
 	width: 90px;
 	background: transparent;
 	border: 1px solid gray;
+	color: white;
 }
 
 #googlebtn p, #youtubebtn p {
